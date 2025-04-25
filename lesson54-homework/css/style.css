@@ -139,7 +139,7 @@ body {
     flex-wrap: wrap;
     margin-bottom: -28px;
     padding-bottom: 30px;
-    margin: 0 -120px;
+    margin: 0 -14px;
 }
 
 .cards-flex-item {
@@ -170,12 +170,12 @@ body {
 }
 
 .cards-button {
+    display: block;
     border-radius: 100px;
     padding: 18px 30px;
     background: linear-gradient(180.00deg, rgb(0, 164, 204), rgb(39, 102, 174) 100%);
-    display: block;
     text-align: center;
-    min-width: 436px;
+    max-width: 436px;
     margin: 0 auto;
 }
 
